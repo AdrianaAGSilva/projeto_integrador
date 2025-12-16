@@ -1,18 +1,13 @@
-# InnovaBank - API de Gestão de Portfólio de TI
+# InnovaBank
 
-[![Python](https://img.shields.io/badge/Python-3.12%2B-blue.svg?logo=python)](https://www.python.org/downloads/)
+> Projeto Django + Django REST Framework para Governança de Portfólio de TI.
+
+[![Python](https://img.shields.io/badge/Python-3.13-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Django](https://img.shields.io/badge/Django-5.0%2B-green.svg?logo=Django)](https://www.djangoproject.com/)
-[![SQLite](https://img.shields.io/badge/SQLite-003B57.svg?logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-[![Poetry](https://img.shields.io/badge/Poetry-1.8%2B-blueviolet.svg?logo=poetry)](https://python-poetry.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## Instituições de Fomento e Parceria
-[![Website IFB](https://img.shields.io/badge/Website-IFB-%23508C3C.svg?labelColor=%23C8102E)](https://www.ifb.edu.br/) 
-[![Website ihwbr](https://img.shields.io/badge/Website-ihwbr-%23DAA520.svg?labelColor=%232E2E2E)](https://hardware.org.br/)
+[![DRF](https://img.shields.io/badge/Django%20REST%20Framework-3.15-red.svg)](https://www.django-rest-framework.org/)
+[![Poetry](https://img.shields.io/badge/Poetry-Latest-blueviolet.svg?logo=poetry)](https://python-poetry.org/)
 
 ## Orientador
-
-**Professor Henrique Freitas**
 
 [![LinkedIn Claudio Ulisse](https://img.shields.io/badge/LinkedIn-Claudio_Ulisse-%230077B5.svg?labelColor=%23FFFFFF&logo=linkedin)](https://www.linkedin.com/in/claudioulisse/)
 [![GitHub claulis](https://img.shields.io/badge/GitHub-claulis_(Claudio_Ulisse)-%23181717.svg?logo=github&logoColor=white)](https://github.com/claulis)
@@ -30,9 +25,24 @@
 
 ## Visão Geral
 
-API desenvolvida para a **InnovaBank**, uma instituição financeira de grande porte, com o objetivo de centralizar a governança do portfólio de projetos de TI.
+Este repositório contém uma API construída com **Django (>=5.0)** e **Django REST Framework** para o gerenciamento de portfólio do **InnovaBank**. O sistema utiliza SQLite por padrão para facilitar o desenvolvimento e foca na governança de departamentos, projetos e tecnologias.
 
-O sistema permite o gerenciamento de **departamentos**, **projetos** e **tecnologias** utilizadas pelo banco, oferecendo uma fonte única de dados para dashboards estratégicos e auditoria. A solução atende aos requisitos de segurança onde a leitura é pública (internamente), mas a escrita é restrita a gestores autenticados.
+A solução oferece endpoints documentados para controle orçamentário, prazos e alocação de recursos.
+
+As dependências principais (definidas em `pyproject.toml`) são:
+
+* `django` (Framework Web)
+* `djangorestframework` (Criação da API)
+* `drf-yasg` (Documentação Swagger Automática)
+* `django-filter` (Filtragem de dados)
+
+## Pré-requisitos
+
+Antes de começar, verifique se o seu ambiente possui:
+
+* **Python 3.12** ou superior
+* **Git** (para versionamento)
+* **Poetry** (gerenciador de dependências)
 
 ## Pacotes Utilizados
 
