@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import Departamento, Tecnologia, Projeto
 
-# Register your models here.
+# Isso faz as tabelas aparecerem na tela azul
+admin.site.register(Departamento)
+admin.site.register(Tecnologia)
+admin.site.register(Projeto)

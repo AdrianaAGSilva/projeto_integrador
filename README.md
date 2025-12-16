@@ -13,7 +13,7 @@
 
 [![LinkedIn Claudio Ulisse](https://img.shields.io/badge/LinkedIn-Claudio_Ulisse-%230077B5.svg?labelColor=%23FFFFFF\&logo=linkedin)](https://www.linkedin.com/in/claudioulisse/)
 [![GitHub claulis](https://img.shields.io/badge/GitHub-claulis_\(Claudio_Ulisse\)-%23181717.svg?logo=github\&logoColor=white)](https://github.com/claulis)
-[![Lattes Claudio Ulisse](https://img.shields.io/badge/Lattes-Claudio_Ulisse-green.svg?logo=cnpq\&logoColor=white)](http://lattes.cnpq.br/4607303092740768)]([https://python-poetry.org/](https://python-poetry.org/))
+[![Lattes Claudio Ulisse](https://img.shields.io/badge/Lattes-Claudio_Ulisse-green.svg?logo=cnpq\&logoColor=white)](http://lattes.cnpq.br/4607303092740768)
 
 ---
 
@@ -123,9 +123,11 @@ poetry run python manage.py createsuperuser
 poetry run python manage.py runserver
 ```
 
-* API: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
-* Endpoints: [http://127.0.0.1:8000/api/](http://127.0.0.1:8000/api/)
-* Swagger: [http://127.0.0.1:8000/swagger/](http://127.0.0.1:8000/swagger/)
+* API (ambiente local): [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
+* Endpoints (ambiente local): [http://127.0.0.1:8000/api/](http://127.0.0.1:8000/api/)
+* Swagger (ambiente local): [http://127.0.0.1:8000/swagger/](http://127.0.0.1:8000/swagger/)
+
+>  **Observação:** os links acima funcionam apenas com o servidor Django em execução localmente (`python manage.py runserver`).
 
 ---
 
@@ -301,5 +303,3 @@ poetry remove requests
 3. Crie uma branch (`feature/` ou `fix/`)
 4. Implemente a alteração
 5. Envie um Pull Request para a branch `main`
-
-
