@@ -1,0 +1,20 @@
+[project]
+name = "projeto-integrador"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Adriana de Araújo Gonçalves Silva",email = "adrianaaraujo1908@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django (>=6.0,<7.0)",
+    "djangorestframework (>=3.16.1,<4.0.0)",
+    "django-filter (>=25.2,<26.0)",
+    "drf-yasg (>=1.21.11,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
