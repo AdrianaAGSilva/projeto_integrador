@@ -17,6 +17,13 @@
 
 ---
 
+## Sumário
+
+- [Visão Geral](#visão-geral)
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação](#instalação)
+- [Rodando o Servidor](#rodando-o-servidor)
+
 ## Visão Geral
 
 Este repositório contém uma API construída com **Django (>= 5.0)** e **Django REST Framework**, voltada para o gerenciamento de portfólio do **InnovaBank**. O projeto utiliza **SQLite** por padrão para facilitar o desenvolvimento.
